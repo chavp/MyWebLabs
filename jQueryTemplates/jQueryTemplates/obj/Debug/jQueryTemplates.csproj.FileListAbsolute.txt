@@ -3,3 +3,8 @@ E:\Data\งานเขียน\jQuery Templates\jQueryTemplates\jQueryTemplate
 E:\Data\งานเขียน\jQuery Templates\jQueryTemplates\jQueryTemplates\obj\Debug\ResolveAssemblyReference.cache
 E:\Data\งานเขียน\jQuery Templates\jQueryTemplates\jQueryTemplates\obj\Debug\jQueryTemplates.dll
 E:\Data\งานเขียน\jQuery Templates\jQueryTemplates\jQueryTemplates\obj\Debug\jQueryTemplates.pdb
+E:\Data\GitRepositories\MyWebLabs\jQueryTemplates\jQueryTemplates\bin\jQueryTemplates.dll
+E:\Data\GitRepositories\MyWebLabs\jQueryTemplates\jQueryTemplates\bin\jQueryTemplates.pdb
+E:\Data\GitRepositories\MyWebLabs\jQueryTemplates\jQueryTemplates\obj\Debug\ResolveAssemblyReference.cache
+E:\Data\GitRepositories\MyWebLabs\jQueryTemplates\jQueryTemplates\obj\Debug\jQueryTemplates.dll
+E:\Data\GitRepositories\MyWebLabs\jQueryTemplates\jQueryTemplates\obj\Debug\jQueryTemplates.pdb

@@ -54,6 +54,7 @@
     <Content Include="Scripts\jquery.tmpl.min.js" />
     <Content Include="Scripts\jquery-1.6.2.min.js" />
     <Content Include="Template1.aspx" />
+    <Content Include="Template2.aspx" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -70,6 +71,13 @@
     </Compile>
     <Compile Include="Template1.aspx.designer.cs">
       <DependentUpon>Template1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Template2.aspx.cs">
+      <DependentUpon>Template2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Template2.aspx.designer.cs">
+      <DependentUpon>Template2.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
