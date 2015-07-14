@@ -11,14 +11,14 @@ using System.Threading.Tasks;
 
 namespace Game.Models.Test
 {
-    [DbConfigurationType(typeof(ModelConfiguration))]
+    //[DbConfigurationType(typeof(ModelConfiguration))]
     public class HRContext : DbContext
     {
-        public HRContext()
-            : base("name=HRContext")
-        {
-            //Database.SetInitializer<HRContext>(new CreateDatabaseIfNotExists<HRContext>());
-        }
+        //public HRContext()
+        //    : base("name=HRContext")
+        //{
+        //    //Database.SetInitializer<HRContext>(new CreateDatabaseIfNotExists<HRContext>());
+        //}
 
         public DbSet<Player> Players { get; set; }
 
@@ -29,9 +29,9 @@ namespace Game.Models.Test
             modelBuilder.HasDefaultSchema("HR");
 
             //modelBuilder.Entity<Player>();
-            modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();
+            //modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();
 
-            modelBuilder.Configurations.Add(new PlayerMap()); 
+            //modelBuilder.Configurations.Add(new PlayerMap()); 
 
             //modelBuilder.Entity<Player>().HasKey(t => t.Id);
             //modelBuilder.Entity<Player>().Property(t => t.Name);
@@ -39,13 +39,13 @@ namespace Game.Models.Test
 
         }
 
-        public class ModelConfiguration : DbConfiguration
-        {
-            public ModelConfiguration()
-            {
-                SetProviderServices("Oracle.ManagedDataAccess.Client", EFOracleProviderServices.Instance);
-            }
-        }
+        //public class ModelConfiguration : DbConfiguration
+        //{
+        //    public ModelConfiguration()
+        //    {
+        //        SetProviderServices("Oracle.ManagedDataAccess.Client", EFOracleProviderServices.Instance);
+        //    }
+        //}
     }
 
     public class PlayerMap

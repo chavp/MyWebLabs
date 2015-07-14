@@ -49,12 +49,12 @@ namespace Game.Models.Test
         {
             Console.WriteLine(TimeZoneInfo.Local.Id);
 
-            //Database.SetInitializer(new DropCreateDatabaseIfModelChanges<HRContext>());
+            Database.SetInitializer(new DropCreateDatabaseAlways<HRContext>());
 
             using (var hr_context = new HRContext())
             //using(var tran = hr_context.Database.BeginTransaction())
             {
-                hr_context.Database.CreateIfNotExists();
+                //hr_context.Database.CreateIfNotExists();
                 //var dhing = (from x in hr_context.Players
                 //             where x.Name == "Dhing"
                 //             select x).FirstOrDefault();
