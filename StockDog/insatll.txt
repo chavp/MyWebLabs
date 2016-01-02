@@ -1,0 +1,12 @@
+//จัดการ task runner
+npm install -g grunt-cli 
+
+//จัดการ DI
+npm install -g bower
+
+//สร้าง web แบบดีตั้งแต่ 0
+npm install -g generator-angular@0.9.8
+
+//สร้าง web โดยใช้ Yeoman
+
+yo angular StockDog
